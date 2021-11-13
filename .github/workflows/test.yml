@@ -13,7 +13,7 @@ jobs:
         uses: ./
         with:
           project-root-folder: "."
-          skip-signing: false
+          skip-signing: "false"
       - name: Test Release
         uses: softprops/action-gh-release@v1
         with:
