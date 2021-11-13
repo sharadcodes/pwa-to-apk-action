@@ -23,4 +23,4 @@ jobs:
         with:
           files: '*.apk'
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag_name: v1.0.0
+          tag_name: v0.0.1

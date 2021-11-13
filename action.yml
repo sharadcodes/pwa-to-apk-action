@@ -10,7 +10,6 @@ inputs:
   skip-signing:
     description: 'It's a flag which is used to determine your apk will be signed or not, if it's "true" then you'll need to add BUBBLEWRAP_KEYSTORE_PASSWORD and BUBBLEWRAP_KEY_PASSWORD as secrets in the repository.'
     required: false
-    default: false
 outputs:
   message:
     description: "Status message from build script"
