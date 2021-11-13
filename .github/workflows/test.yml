@@ -7,8 +7,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Install utils
+        run:  sudo apt -y install git
       - name: Clone test repo
-        run: git clone https://github.com/sharadcodes/pwa-to-apk-action-test && mv pwa-to-apk-action-test/* .
+        run:  git clone https://github.com/sharadcodes/pwa-to-apk-action-test && mv ./pwa-to-apk-action-test/* '.'
       - name: Test pwa-to-apk-action
         uses: ./
         with:
