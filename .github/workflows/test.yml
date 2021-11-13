@@ -17,10 +17,10 @@ jobs:
         uses: ./
         with:
           project-root-folder: "."
-          skip-signing: "false"
+          signing: true
       - name: Test Release Signed
         uses: softprops/action-gh-release@v1
         with:
           files: '*.apk'
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag_name: v0.0.2-signed
+          tag_name: v0.0.1-signed
