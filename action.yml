@@ -1,5 +1,5 @@
 name: 'PWA to APK action'
-description: 'Github Action for Converting your PWA to android app.'
+description: 'Github Action for Converting your PWA to APK.'
 branding:
   icon: 'package'
   color: 'orange'
