@@ -13,14 +13,25 @@ jobs:
         run:  wget https://github.com/sharadcodes/pwa-to-apk-action-test/archive/refs/heads/main.zip
       - name: Move files
         run:  unzip main.zip && mv pwa-to-apk-action-test-main/* .
-      - name: Test pwa-to-apk-action
+      - name: Test pwa-to-apk-action Signed
         uses: ./
         with:
           project-root-folder: "."
           skip-signing: "false"
-      - name: Test Release
+      - name: Test Release Signed
         uses: softprops/action-gh-release@v1
         with:
           files: '*.apk'
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag_name: v0.0.1
+          tag_name: v0.0.2-signed
+      - name: Test pwa-to-apk-action Non Signed
+        uses: ./
+        with:
+          project-root-folder: "."
+          skip-signing: "true"
+      - name: Test Release Non Signed
+        uses: softprops/action-gh-release@v1
+        with:
+          files: '*.apk'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: v0.0.2-non-signed
