@@ -12,7 +12,7 @@ inputs:
     required: true
 outputs:
   message:
-    description: "Status message from build script"
+    description: 'Status message from build script'
 runs:
   using: 'docker'
   image: 'Dockerfile'
