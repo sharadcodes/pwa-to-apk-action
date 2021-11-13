@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Test pwa-to-apk-action
-        uses: "."
+        uses: ./
         with:
           project-root-folder: "."
       - name: Test Release
