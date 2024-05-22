@@ -29,7 +29,7 @@ Well I'm planning to remove the extra step in which you have to upload the andro
 👤 **Sharad Raj Singh Maurya**
 
 * Website: https://sharadcodes.github.io/
-* Twitter: [@sharadcodes](https://twitter.com/sharadcodes)
+* Twitter: [@sharadcodes](https://twitter.com/iamsharadraj)
 * Github: [@sharadcodes](https://github.com/sharadcodes)
 * LinkedIn: [@srsmaurya](https://linkedin.com/in/srsmaurya)
 
