@@ -4,9 +4,6 @@
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/sharadcodes" target="_blank">
-    <img alt="Twitter: sharadcodes" src="https://img.shields.io/twitter/follow/sharadcodes.svg?style=social" />
-  </a>
 </p>
 
 > Github Action for Converting your PWA to android app.
